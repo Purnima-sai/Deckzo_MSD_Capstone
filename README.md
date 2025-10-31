@@ -1,54 +1,36 @@
-# Welcome to your Lovable project
+# Deckzo Study Hub
+
+This project was built by me.
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/dd6d7932-6ccd-491d-950e-b5a7f7a3b33c
+**Repository**: https://github.com/Purnima-sai/Deckzo_MSD_Capstone
 
 ## How can I edit this code?
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/dd6d7932-6ccd-491d-950e-b5a7f7a3b33c) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
+There are several ways to edit and run the application locally.
 
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Clone the repo, install dependencies, and run the dev server locally.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Requirements: Node.js and npm (or a compatible package manager). If you need nvm, see https://github.com/nvm-sh/nvm#installing-and-updating
 
-Follow these steps:
+Quick start:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Clone the repository
+git clone https://github.com/Purnima-sai/Deckzo_MSD_Capstone.git
+cd Deckzo_MSD_Capstone
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Install dependencies
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+You can also edit files directly on GitHub or use Codespaces if you prefer an online IDE.
 
 ## What technologies are used for this project?
 
@@ -62,12 +44,17 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/dd6d7932-6ccd-491d-950e-b5a7f7a3b33c) and click on Share -> Publish.
+Build the app and deploy it to your hosting provider (Vercel, Netlify, GitHub Pages, etc.).
 
-## Can I connect a custom domain to my Lovable project?
+Example build command:
 
-Yes, you can!
+```sh
+npm run build
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Then follow your host's instructions to publish the `dist`/`build` output.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## Notes
+
+- I built and maintain this project. If you need any changes, open an issue or submit a PR.
+- For consistent line endings across platforms, consider adding a `.gitattributes` file.
