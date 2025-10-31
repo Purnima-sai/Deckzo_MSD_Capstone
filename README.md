@@ -51,7 +51,6 @@ Example build command:
 ```sh
 npm run build
 ```
-
 Then follow your host's instructions to publish the `dist`/`build` output.
 
 ## Notes
